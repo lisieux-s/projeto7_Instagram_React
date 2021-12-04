@@ -1,7 +1,12 @@
+import Sugestao from "./Sugestao";
 export default function Sugestoes() {
+
+  //PARASTE AQUI OH RAYOS
+  //fazer array maneiro pras sugestoes
+
     return (
-      //use map
-<div class="sugestoes">
+  //map that like its zelda I and youre a child taken by the wonder of expoloration
+  <div class="sugestoes">
             <div class="titulo">
               Sugestões para você
               <div>Ver tudo</div>
@@ -15,6 +20,7 @@ export default function Sugestoes() {
                   <div class="razao">Segue você</div>
                 </div>
               </div>
+
 
               <div class="seguir">Seguir</div>
             </div>
