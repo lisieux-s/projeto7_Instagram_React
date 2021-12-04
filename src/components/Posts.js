@@ -1,6 +1,7 @@
 export default function Posts() {
     return (
         //post é repetitivo. gotta prop em all!
+        //use map
         <div class="posts">
             <div class="post">
               <div class="topo">

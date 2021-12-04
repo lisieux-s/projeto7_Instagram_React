@@ -1,5 +1,6 @@
 export default function Sugestoes() {
     return (
+      //use map
 <div class="sugestoes">
             <div class="titulo">
               Sugestões para você

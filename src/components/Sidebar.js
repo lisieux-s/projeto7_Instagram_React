@@ -2,6 +2,7 @@ import Sugestoes from "./Sugestoes"
 export default function Sidebar() {
     return (
         //sugestao é elemento repetitivo, então sugiro props
+        //use map (for logged in user)
         <div class="sidebar">
           <div class="usuario">
             <img src="assets/img/catanacomics.svg" />
