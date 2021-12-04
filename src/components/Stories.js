@@ -1,6 +1,7 @@
 import Story from "./Story";
 export default function Stories() {
-  const stories = [
+  const stories = 
+  [
     { imgURL: "assets/img/9gag.svg", user: "9gag" },
     { imgURL: "assets/img/meowed.svg", user: "meowed" },
     { imgURL: "assets/img/barked.svg", user: "barked" },
