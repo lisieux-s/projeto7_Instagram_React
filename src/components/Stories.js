@@ -12,15 +12,9 @@ export default function Stories() {
     { imgURL: "assets/img/memeriagourmet.svg", user: "memeriagourmet" },
   ];
   return (
-    //ok now do it using map
+    //gente, to emocionada, ta dando certo??
     <div class="stories">
-      {stories.map((story) => (
-        <div class="story">
-          <div class="imagem">
-            <img src={story.imgURL} />
-          </div>
-          <div class="usuario">{story.user}</div>
-        </div>
+      {stories.map((story) => (Story(story)
       ))}
       <div class="setinha">
         <ion-icon name="chevron-forward-circle"></ion-icon>
