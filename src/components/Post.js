@@ -1,3 +1,5 @@
+import Comentario from "./Comentario";
+
 export default function Post(props) {
   return (
     <div class="post">
@@ -32,6 +34,16 @@ export default function Post(props) {
           <div class="texto">
             Curtido por <strong>{props.curtidoPor}</strong> e{" "}
             <strong>outras {props.nCurtidas} pessoas</strong>
+          </div>
+        </div>
+        <div class="comentarios">
+          {props.comentarios.map((comentario) => Comentario(comentario))}
+          <div class="publicar-comentario">
+            <div>
+              <img src={props.loggedUserImgURL} />
+              <input type="text" placeholder="Adicione um comentário..." />
+              </div>
+            <button>Publicar</button>
           </div>
         </div>
       </div>

@@ -391,3 +391,52 @@ body {
     top: 4px;
   }
 }
+.comentarios {
+  padding: 0 15px;
+}
+.comentarios img {
+  object-fit: cover;
+  width: 30px;
+  height: 30px;
+}
+.publicar-comentario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.publicar-comentario > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+}
+.publicar-comentario button {
+  color: gray;
+  border: 1px solid #8E8E8E;
+  border-radius: 5px;
+  background: none;
+  transition: all 0.2s;
+}
+.publicar-comentario button:hover {
+  color: #139EF2;
+  border-color: #139EF2; 
+}
+
+.publicar-comentario input {
+  border: 0;
+  background: none;
+}
+
+.comentario {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.comentario button {
+  border: 0;
+  background: none;
+  transition: all 0.2s;
+}
+.comentario button:hover {
+  color:crimson;
+}
