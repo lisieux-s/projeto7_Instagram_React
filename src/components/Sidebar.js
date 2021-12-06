@@ -9,8 +9,6 @@ const user = {
 
 export default function Sidebar() {
   return (
-    //sugestao é elemento repetitivo, então sugiro props
-    //use map (for logged in user)
     <div class="sidebar">
       {User(user)}
       <Sugestoes />
