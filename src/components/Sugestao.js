@@ -1,7 +1,8 @@
 export default function Sugestao(props) {
-  <div class="sugestao">
+  return (
+    <div class="sugestao">
     <div class="usuario">
-      <img src={props.img} />
+      <img src={props.imgURL} />
       <div class="texto">
         <div class="nome">{props.nome}</div>
         <div class="razao">{props.razao}</div>
@@ -9,5 +10,6 @@ export default function Sugestao(props) {
     </div>
 
     <div class="seguir">Seguir</div>
-  </div>;
+  </div>
+  )
 }
