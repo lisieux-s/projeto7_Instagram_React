@@ -10,14 +10,18 @@ const user = {
 export default function Sidebar() {
   return (
     <div class="sidebar">
-      {User(user)}
-      <Sugestoes />
-      <div class="links">
-        Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos •
-        Localizações • Contas mais relevantes • Hashtags • Idioma
-      </div>
+      <div>
+        <div>
+        {User(user)}
+        <Sugestoes />
+        <div class="links">
+          Sobre • Ajuda • Imprensa • API • Carreiras • Privacidade • Termos •
+          Localizações • Contas mais relevantes • Hashtags • Idioma
+        </div>
 
-      <div class="copyright">© 2021 INSTAGRAM DO FACEBOOK</div>
+        <div class="copyright">© 2021 INSTAGRAM DO FACEBOOK</div>
+        </div>
+      </div>
     </div>
   );
 }
